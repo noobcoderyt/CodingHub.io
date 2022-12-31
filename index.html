@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingHub - Get Programming Help!</title>
+
+    <style>
+
+        *{
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        body{
+            background-image: url(background.jpg);
+            height:100vh;
+            background-size: cover;
+            background-position: center;
+        }
+
+        ul{
+            float: right;
+            list-style-type: none;
+            margin-right: 50px;
+            margin-top: 30px;
+        }
+
+        ul li{
+            display: inline-block;
+        }
+
+        ul li a{
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            border: 2px solid white;
+            margin: 10px;
+
+        }
+        ul li a:hover{
+            background-color: white;
+            color: black;
+            transition: 0.5s ease;
+        }
+
+        .logo img{
+            width: 75px;
+            height: auto;
+            float: left;
+        }
+
+        #logo_text{
+            font-size: 70px;
+            float:left;
+            color: white;
+        }
+
+        .btn{
+            position: absolute;
+            left: 40%;
+            top: 70%;
+        }
+
+        .btn a{
+            text-decoration: none;
+            color: white;
+            border : 2px solid white;
+            padding: 10px 20px;
+            margin: 2px;
+        }
+
+        .btn a:hover{
+            color: black;
+            background-color: white;
+            transition: 1s ease;
+        }
+        
+    </style>
+
+</head>
+<body>
+    
+    <div class="nav">
+
+        <div class="logo">
+            <img src="logo.png" alt="CodingHub">
+            <span id="logo_text">CodingHub</span>
+        </div>
+
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">Services</a></li>
+            <li class="item"><a href="#">About Us</a></li>
+            <li class="item"><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div class="btn">
+        <a href="#">Contact Us</a>
+        <a href="#">Learn More</a>
+    </div>
+
+</body>
+</html>
